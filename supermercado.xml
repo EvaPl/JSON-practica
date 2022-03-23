@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <supermercado1 array="true">
+    <id number="true">1</id>
+    <nombre>Mercadona</nombre>
+    <dirección>C/ María Villangómez, 8</dirección>
+    <geolocalizacion>38º98'88.20 N</geolocalizacion>
+    <geolocalizacion>1º54'40.62 E</geolocalizacion>
+    <lugar>Baleares</lugar>
+    <horario>Lunes a Sábado de 9:00h a 21:30h</horario>
+    <productos>
+      <id>1Mercadona</id>
+      <nombre>Agua</nombre>
+      <sección>Agua</sección>
+      <descripcion>Agua mineral embotellada</descripcion>
+      <origen>España</origen>
+      <oferta boolean="true">false</oferta>
+      <precio number="true">2.59</precio>
+      <formato>8L</formato>
+      <habitual boolean="true">true</habitual>
+      <adquirido boolean="true">true</adquirido>
+    </productos>
+    <productos>
+      <id>2Mercadona</id>
+      <nombre>Flan</nombre>
+      <sección>Lácteos</sección>
+      <descripcion>Flan de huevo</descripcion>
+      <origen>España</origen>
+      <oferta boolean="true">true</oferta>
+      <vigenciaOferta>12/03/2022</vigenciaOferta>
+      <vigenciaOferta>20/03/2022</vigenciaOferta>
+      <precio number="true">2.09</precio>
+      <precioRebajado number="true">1.35</precioRebajado>
+      <formato>4 unidades</formato>
+      <habitual boolean="true">false</habitual>
+      <adquirido boolean="true">false</adquirido>
+    </productos>
+    <productos>
+      <id>3Mercadona</id>
+      <nombre>leche</nombre>
+      <sección>Lácteos</sección>
+      <descripcion>Leche entera</descripcion>
+      <origen>España</origen>
+      <oferta boolean="true">false</oferta>
+      <precio number="true">1.5</precio>
+      <formato>1L</formato>
+      <habitual boolean="true">true</habitual>
+      <adquirido boolean="true">false</adquirido>
+    </productos>
+  </supermercado1>
+  <supermercado2 array="true">
+    <id number="true">2</id>
+    <nombre>Eroski</nombre>
+    <dirección>C/ Cèsar Puget Riquer 60</dirección>
+    <geolocalizacion>38º98'30.95 N</geolocalizacion>
+    <geolocalizacion>1º53'13.87 E</geolocalizacion>
+    <lugar>Baleares</lugar>
+    <horario>Lunes a Sábado de 9:00h a 21:30h</horario>
+    <productos>
+      <id>1Eroski</id>
+      <nombre>Pan</nombre>
+      <sección>Panadería</sección>
+      <descripcion>Pan de viena</descripcion>
+      <origen>España</origen>
+      <oferta boolean="true">true</oferta>
+      <vigenciaOferta>17/03/2022</vigenciaOferta>
+      <vigenciaOferta>22/03/2022</vigenciaOferta>
+      <precio number="true">1.20</precio>
+      <precioRebajado number="true">1</precioRebajado>
+      <formato>4 unidades</formato>
+      <habitual boolean="true">true</habitual>
+      <adquirido boolean="true">false</adquirido>
+    </productos>
+    <productos>
+      <id>2Eroski</id>
+      <nombre>Espinacas</nombre>
+      <sección>Congelados</sección>
+      <descripcion>Espinacas cortada</descripcion>
+      <origen>España</origen>
+      <oferta boolean="true">false</oferta>
+      <precio number="true">1.99</precio>
+      <formato>400g</formato>
+      <habitual boolean="true">false</habitual>
+      <adquirido boolean="true">true</adquirido>
+    </productos>
+    <productos>
+      <id>3Eroski</id>
+      <nombre>Huevos</nombre>
+      <sección>Lácteos</sección>
+      <descripcion>Huevos M</descripcion>
+      <origen>España</origen>
+      <oferta boolean="true">false</oferta>
+      <precio number="true">1.55</precio>
+      <formato>1D</formato>
+      <habitual boolean="true">true</habitual>
+      <adquirido boolean="true">true</adquirido>
+    </productos>
+  </supermercado2>
+  <supermercado3 array="true">
+    <id number="true">3</id>
+    <nombre>Lidl</nombre>
+    <dirección>C/ Río Grande 5</dirección>
+    <geolocalizacion>38º92'40.72 N</geolocalizacion>
+    <geolocalizacion>1º42'23.42 E</geolocalizacion>
+    <lugar>Baleares</lugar>
+    <horario>Lunes a Sábado de 9:00h a 21:30h</horario>
+    <productos>
+      <id>1Lidl</id>
+      <nombre>Aceite de oliva</nombre>
+      <sección>Conservas</sección>
+      <descripcion>Aceite de oliva virgen extra</descripcion>
+      <origen>España</origen>
+      <oferta boolean="true">true</oferta>
+      <vigenciaOferta>15/03/2022</vigenciaOferta>
+      <vigenciaOferta>31/03/2022</vigenciaOferta>
+      <precio number="true">1.90</precio>
+      <precioRebajado number="true">1.50</precioRebajado>
+      <formato>1L</formato>
+      <habitual boolean="true">true</habitual>
+      <adquirido boolean="true">false</adquirido>
+    </productos>
+    <productos>
+      <id>2Lidl</id>
+      <nombre>Brócoli</nombre>
+      <sección>Verduras</sección>
+      <descripcion>Brócoli manojo</descripcion>
+      <origen>España</origen>
+      <oferta boolean="true">true</oferta>
+      <vigenciaOferta>18/03/2022</vigenciaOferta>
+      <vigenciaOferta>20/03/2022</vigenciaOferta>
+      <precio number="true">0.85</precio>
+      <precioRebajado number="true">0.63</precioRebajado>
+      <formato>1Kg</formato>
+      <habitual boolean="true">false</habitual>
+      <adquirido boolean="true">true</adquirido>
+    </productos>
+    <productos>
+      <id>3Lidl</id>
+      <nombre>Garbanzos</nombre>
+      <sección>Conservas</sección>
+      <descripcion>Garbanzos cocidos</descripcion>
+      <origen>España</origen>
+      <oferta boolean="true">false</oferta>
+      <precio number="true">1.65</precio>
+      <formato>500g</formato>
+      <habitual boolean="true">true</habitual>
+      <adquirido boolean="true">true</adquirido>
+    </productos>
+  </supermercado3>
+</root>

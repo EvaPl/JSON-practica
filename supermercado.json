@@ -1,0 +1,154 @@
+{
+    "supermercado1":[
+        {
+            "id": 1,
+            "nombre": "Mercadona",
+            "dirección": "C/ María Villangómez, 8",
+            "geolocalizacion":["38º98'88.20 N", "1º54'40.62 E"],
+            "lugar": "Baleares",
+            "horario": "Lunes a Sábado de 9:00h a 21:30h",
+            "productos": [
+                {
+                    "id": "1Mercadona",
+                    "nombre": "Agua",
+                    "sección": "Agua",
+                    "descripcion": "Agua mineral embotellada",
+                    "origen": "España",
+                    "oferta": false,
+                    "precio": 2.59,
+                    "formato": "8L",
+                    "habitual": true,
+                    "adquirido":true
+                    
+                },
+                {
+                   "id": "2Mercadona",
+                   "nombre": "Flan",
+                   "sección": "Lácteos","descripcion": "Flan de huevo",
+                   "origen": "España",
+                   "oferta": true,
+                   "vigenciaOferta":["12/03/2022", "20/03/2022"],
+                   "precio": 2.09,
+                   "precioRebajado": 1.35,
+                   "formato": "4 unidades",
+                   "habitual": false,
+                   "adquirido":false
+                },
+                {
+                  "id": "3Mercadona",
+                   "nombre": "leche",
+                   "sección": "Lácteos",
+                   "descripcion": "Leche entera",
+                   "origen": "España",
+                   "oferta": false,
+                   "precio": 1.5,
+                   "formato": "1L",
+                   "habitual": true,
+                   "adquirido": false  
+                }
+            ] 
+        }
+    ],
+    "supermercado2":[
+        {
+            "id": 2,
+            "nombre": "Eroski",
+            "dirección": "C/ Cèsar Puget Riquer 60",
+            "geolocalizacion":["38º98'30.95 N", "1º53'13.87 E"],
+            "lugar": "Baleares",
+            "horario": "Lunes a Sábado de 9:00h a 21:30h",
+            "productos":[
+                {
+                  "id": "1Eroski",
+                   "nombre": "Pan",
+                   "sección": "Panadería",
+                   "descripcion": "Pan de viena",
+                   "origen": "España",
+                   "oferta": true,
+                   "vigenciaOferta":["17/03/2022", "22/03/2022"],
+                   "precio": 1.20,
+                   "precioRebajado": 1,
+                   "formato": "4 unidades",
+                   "habitual": true,
+                   "adquirido": false  
+                },
+                {
+                  "id": "2Eroski",
+                   "nombre": "Espinacas",
+                   "sección": "Congelados",
+                   "descripcion": "Espinacas cortada",
+                   "origen": "España",
+                   "oferta": false,
+                   "precio": 1.99,
+                   "formato": "400g",
+                   "habitual": false,
+                   "adquirido": true  
+                },
+                {
+                  "id": "3Eroski",
+                   "nombre": "Huevos",
+                   "sección": "Lácteos",
+                   "descripcion": "Huevos M",
+                   "origen": "España",
+                   "oferta": false,
+                   "precio": 1.55,
+                   "formato": "1D",
+                   "habitual": true,
+                   "adquirido": true  
+                }
+            ]
+        }
+    ],
+    "supermercado3":[
+        {
+            "id": 3,
+            "nombre": "Lidl",
+            "dirección": "C/ Río Grande 5",
+            "geolocalizacion":["38º92'40.72 N", "1º42'23.42 E"],
+            "lugar": "Baleares",
+            "horario": "Lunes a Sábado de 9:00h a 21:30h",
+            "productos":[
+                {
+                    "id": "1Lidl",
+                   "nombre": "Aceite de oliva",
+                   "sección": "Conservas",
+                   "descripcion": "Aceite de oliva virgen extra",
+                   "origen": "España",
+                   "oferta": true,
+                   "vigenciaOferta":["15/03/2022", "31/03/2022"],
+                   "precio": 1.90,
+                   "precioRebajado": 1.50,
+                   "formato": "1L",
+                   "habitual": true,
+                   "adquirido": false 
+                },
+                {
+                    "id": "2Lidl",
+                   "nombre": "Brócoli",
+                   "sección": "Verduras",
+                   "descripcion": "Brócoli manojo",
+                   "origen": "España",
+                   "oferta": true,
+                   "vigenciaOferta":["18/03/2022", "20/03/2022"],
+                   "precio": 0.85,
+                   "precioRebajado":0.63,
+                   "formato": "1Kg",
+                   "habitual": false,
+                   "adquirido": true 
+                },
+                {
+                    "id": "3Lidl",
+                   "nombre": "Garbanzos",
+                   "sección": "Conservas",
+                   "descripcion": "Garbanzos cocidos",
+                   "origen": "España",
+                   "oferta": false,
+                   "precio": 1.65,
+                   "formato": "500g",
+                   "habitual": true,
+                   "adquirido": true 
+                }
+            ]
+        }
+    ]       
+}
